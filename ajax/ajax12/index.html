@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>github api</title>
+</head>
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+<link rel="stylesheet" type="text/css" href="https://bootswatch.com/4/cerulean/bootstrap.min.css">
+
+<body>
+    <nav class="navbar navbar-dark bg-info">
+        <div class="container">
+            <a href="#" class="navbar brand"> GitHub Finder </a>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="card body-card">
+            <h1>Search User GitHub User</h1>
+            <p class="lead">Enter the username and find the github profile and repose </p>
+            <div class="form-group">
+                <input type="text" id="searchUser" class="form-control" placeholder="enter the github username">
+            </div>
+            <br/>
+            <br/>
+            <div id="profile"> </div>
+        </div>
+    </div>
+    <footer class="mt-5 bg-info p-3 text-center">
+        Github Finder &copy;
+    </footer>
+    <script src="js/github.js"></script>
+    <script src="js/ui.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
